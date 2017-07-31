@@ -1,12 +1,14 @@
 package com.test.slidedrawer;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.SlidingDrawer;
 import android.widget.TextView;
 
+/**
+ * @author MagicLon
+ */
 public class MainActivity extends Activity {
     private SlidingDrawer mdrawer;//定义一个抽屉控件
     private ImageButton mbutton;
